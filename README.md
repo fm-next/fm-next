@@ -6,6 +6,7 @@
 package.jsonにバージョン記載あり。
 
 ## Setup
+.env設置後以下コマンドを実行
 
 ```bash
 $ npm install
