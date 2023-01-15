@@ -7,5 +7,14 @@ module.exports = {
   trailingComma: 'none',
   semi: false,
   useTabs: false,
-  parser: 'typescript'
+  parser: 'typescript',
+  importOrder: [
+    '^@core/(.*)$',
+    '<THIRD_PARTY_MODULES>',
+    '^@server/(.*)$',
+    '^@ui/(.*)$',
+    '^[./]'
+  ],
+  importOrderSeparation: true,
+  importOrderSortSpecifiers: true
 }
