@@ -1,5 +1,10 @@
 # Create T3 App
 
+
+## Node
+バージョン管理ツールはVoltaを使用。
+package.jsonにバージョン記載あり。
+
 ## Setup
 
 ```bash
