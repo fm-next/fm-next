@@ -6,6 +6,9 @@
 package.jsonにバージョン記載あり。
 
 ## Setup
+Voltaのインストール
+https://docs.volta.sh/guide/getting-started
+
 .env設置後以下コマンドを実行
 
 ```bash
